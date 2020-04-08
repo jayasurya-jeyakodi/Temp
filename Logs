@@ -1,0 +1,46 @@
+%7|1586326063.604|SASL|rdkafka#producer-1| [thrd:app]: Selected provider PLAIN (builtin) for SASL mechanism PLAIN
+%7|1586326063.604|OPENSSL|rdkafka#producer-1| [thrd:app]: librdkafka built with OpenSSL version 0x100020df
+%7|1586326063.606|SSL|rdkafka#producer-1| [thrd:app]: Loading CA certificate(s) from directory ./cert/
+%7|1586326063.607|BRKMAIN|rdkafka#producer-1| [thrd::0/internal]: :0/internal: Enter main broker thread
+%7|1586326063.607|BROKER|rdkafka#producer-1| [thrd:app]: sasl_ssl://broker-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Added new broker with NodeId -1
+%7|1586326063.607|BRKMAIN|rdkafka#producer-1| [thrd:sasl_ssl://broker-****.us-south.event]: sasl_ssl://broker-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Enter main broker thread
+%7|1586326063.608|BROKER|rdkafka#producer-1| [thrd:app]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Added new broker with NodeId -1
+%7|1586326063.608|BRKMAIN|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Enter main broker thread
+%7|1586326063.608|BROKER|rdkafka#producer-1| [thrd:app]: sasl_ssl://broker-3-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Added new broker with NodeId -1
+%7|1586326063.608|BRKMAIN|rdkafka#producer-1| [thrd:sasl_ssl://broker-3-****.us-south.event]: sasl_ssl://broker-3-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Enter main broker thread
+%7|1586326063.608|BROKER|rdkafka#producer-1| [thrd:app]: sasl_ssl://broker-2-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Added new broker with NodeId -1
+%7|1586326063.608|BRKMAIN|rdkafka#producer-1| [thrd:sasl_ssl://broker-2-****.us-south.event]: sasl_ssl://broker-2-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Enter main broker thread
+%7|1586326063.608|BROKER|rdkafka#producer-1| [thrd:app]: sasl_ssl://broker-5-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Added new broker with NodeId -1
+%7|1586326063.608|BRKMAIN|rdkafka#producer-1| [thrd:sasl_ssl://broker-5-****.us-south.event]: sasl_ssl://broker-5-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Enter main broker thread
+%7|1586326063.608|BROKER|rdkafka#producer-1| [thrd:app]: sasl_ssl://broker-1-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Added new broker with NodeId -1
+%7|1586326063.609|BRKMAIN|rdkafka#producer-1| [thrd:sasl_ssl://broker-1-****.us-south.event]: sasl_ssl://broker-1-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Enter main broker thread
+%7|1586326063.609|CONNECT|rdkafka#producer-1| [thrd:app]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Selected for cluster connection: bootstrap servers added (broker has 0 connection attempt(s))
+%7|1586326063.609|CONNECT|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Received CONNECT op
+%7|1586326063.609|STATE|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Broker changed state INIT -> TRY_CONNECT
+%7|1586326063.609|CONNECT|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: broker in state TRY_CONNECT connecting
+%7|1586326063.609|STATE|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Broker changed state TRY_CONNECT -> CONNECT
+%7|1586326063.613|CONNECT|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Connecting to ipv4#52.116.23.27:9093 (sasl_ssl) with socket 242
+%7|1586326063.609|INIT|rdkafka#producer-1| [thrd:app]: librdkafka v1.4.0 (0x10400ff) rdkafka#producer-1 initialized (builtin.features gzip,snappy,ssl,sasl,regex,lz4,sasl_gssapi,sasl_plain,sasl_scram,plugins,zstd,sasl_oauthbearer, STATIC_LINKING CC GXX PKGCONFIG OSXLD LIBDL PLUGINS ZLIB SSL SASL_CYRUS ZSTD HDRHISTOGRAM SNAPPY SOCKEM SASL_SCRAM SASL_OAUTHBEARER CRC32C_HW, debug 0x282)
+%7|1586326063.859|CONNECT|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Connected to ipv4#52.116.23.27:9093
+%7|1586326064.352|CONNECTED|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Connected (#1)
+%7|1586326064.352|FEATURE|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Updated enabled protocol features +ApiVersion to ApiVersion
+%7|1586326064.352|STATE|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Broker changed state CONNECT -> APIVERSION_QUERY
+%7|1586326064.353|SEND|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Sent ApiVersionRequest (v3, 52 bytes @ 0, CorrId 1)
+%7|1586326064.596|RECV|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Received ApiVersionResponse (v3, 276 bytes, CorrId 1, rtt 242.35ms)
+%7|1586326064.596|PROTOERR|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Protocol parse failure for ApiVersion v3 at 3/276 (rd_kafka_handle_ApiVersion:1911) (incorrect broker.version.fallback?)
+%7|1586326064.596|PROTOERR|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: ApiArrayCnt -1 out of range
+%7|1586326064.596|BROKERFAIL|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: failed: err: Local: Broker transport failure: (errno: Undefined error: 0)
+%7|1586326064.596|FEATURE|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Updated enabled protocol features -ApiVersion to 
+%7|1586326064.596|STATE|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-0-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Broker changed state APIVERSION_QUERY -> DOWN
+%7|1586326064.597|CONNECT|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: sasl_ssl://broker-1-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Selected for cluster connection: broker down (broker has 0 connection attempt(s))
+%7|1586326064.597|CONNECT|rdkafka#producer-1| [thrd:sasl_ssl://broker-1-****.us-south.event]: sasl_ssl://broker-1-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Received CONNECT op
+%7|1586326064.597|STATE|rdkafka#producer-1| [thrd:sasl_ssl://broker-1-****.us-south.event]: sasl_ssl://broker-1-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Broker changed state INIT -> TRY_CONNECT
+%7|1586326064.597|CONNECT|rdkafka#producer-1| [thrd:sasl_ssl://broker-1-****.us-south.event]: sasl_ssl://broker-1-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: broker in state TRY_CONNECT connecting
+%7|1586326064.597|STATE|rdkafka#producer-1| [thrd:sasl_ssl://broker-1-****.us-south.event]: sasl_ssl://broker-1-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Broker changed state TRY_CONNECT -> CONNECT
+%7|1586326064.597|CONNECT|rdkafka#producer-1| [thrd:sasl_ssl://broker-0-****.us-south.event]: Not selecting any broker for cluster connection: still suppressed for 49ms: broker down
+%7|1586326064.599|CONNECT|rdkafka#producer-1| [thrd:sasl_ssl://broker-1-****.us-south.event]: sasl_ssl://broker-1-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Connecting to ipv4#52.116.23.27:9093 (sasl_ssl) with socket 242
+%7|1586326064.608|CONNECT|rdkafka#producer-1| [thrd:main]: Not selecting any broker for cluster connection: still suppressed for 38ms: refresh unavailable topics
+%7|1586326064.608|CONNECT|rdkafka#producer-1| [thrd:main]: Not selecting any broker for cluster connection: still suppressed for 38ms: refresh unavailable topics
+%7|1586326064.609|CONNECT|rdkafka#producer-1| [thrd:main]: Not selecting any broker for cluster connection: still suppressed for 38ms: no cluster connection
+%7|1586326064.892|CONNECT|rdkafka#producer-1| [thrd:sasl_ssl://broker-1-****.us-south.event]: sasl_ssl://broker-1-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Connected to ipv4#52.116.23.27:9093
+%7|1586326065.497|CONNECTED|rdkafka#producer-1| [thrd:sasl_ssl://broker-1-****.us-south.event]: sasl_ssl://broker-1-****.us-south.eventstreams.cloud.ibm.com:9093/bootstrap: Connected (#1)
